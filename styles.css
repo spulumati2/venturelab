@@ -29,3 +29,41 @@ footer{font-size:10px}.modal p{font-size:13px}
 .detail-stat small{font-size:10px}.field span{font-size:11px}
 .field input,.field select{font-size:13px}.toast{font-size:12px}
 .quarter-label{font-size:11px}.quarter-report{font-size:12px}
+
+
+/* LARGER TEXT FOR VENTURELAB */
+
+body {
+    font-size: 18px;
+}
+
+.nav span {
+    font-size: 16px;
+}
+
+.welcome p,
+.company-desc,
+.company-meta,
+.card-foot span,
+.progress-row,
+.intro-row p,
+.table td,
+.lesson p,
+.bubble {
+    font-size: 16px !important;
+    line-height: 1.7;
+}
+
+.small-button,
+.primary {
+    font-size: 15px !important;
+}
+
+.topbar h1 {
+    font-size: 28px;
+}
+
+.startup-card h3,
+.lesson h3 {
+    font-size: 20px;
+}

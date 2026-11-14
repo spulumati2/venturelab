@@ -45,3 +45,44 @@ footer{font-size:10px}.modal p{font-size:13px}
 .vc-grid .guide-card{min-height:190px}
 .guide-panel .primary{margin-top:14px}
 @media(max-width:760px){.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{padding:17px}.guide-card h3{font-size:17px}.guide-card p,.guide-panel p,.rules-list{font-size:13px}.guide-panel{padding:17px}}
+
+/* LARGER TEXT UPDATE */
+body {
+    font-size: 18px !important;
+}
+
+.main p,
+.main li,
+.main label,
+.main input,
+.main select,
+.main textarea,
+.nav,
+.nav span,
+.company-desc,
+.company-meta,
+.card-foot span,
+.progress-row,
+.lesson p,
+.bubble,
+.table th,
+.table td {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+.main h1 {
+    font-size: 30px !important;
+}
+
+.main h2 {
+    font-size: 38px !important;
+}
+
+.main h3 {
+    font-size: 21px !important;
+}
+
+button {
+    font-size: 15px !important;
+}

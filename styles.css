@@ -31,39 +31,17 @@ footer{font-size:10px}.modal p{font-size:13px}
 .quarter-label{font-size:11px}.quarter-report{font-size:12px}
 
 
-/* LARGER TEXT FOR VENTURELAB */
-
-body {
-    font-size: 18px;
-}
-
-.nav span {
-    font-size: 16px;
-}
-
-.welcome p,
-.company-desc,
-.company-meta,
-.card-foot span,
-.progress-row,
-.intro-row p,
-.table td,
-.lesson p,
-.bubble {
-    font-size: 16px !important;
-    line-height: 1.7;
-}
-
-.small-button,
-.primary {
-    font-size: 15px !important;
-}
-
-.topbar h1 {
-    font-size: 28px;
-}
-
-.startup-card h3,
-.lesson h3 {
-    font-size: 20px;
-}
+/* Player guide and venture-capital learning sections */
+.guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.guide-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;box-shadow:var(--shadow)}
+.guide-card h3{font-size:18px;margin:8px 0 10px;color:var(--ink)}
+.guide-card p,.guide-panel p{font-size:14px;line-height:1.75;color:#687786;margin:0}
+.guide-number{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:9px;background:#edf5ef;color:#34734a;font-weight:800;font-size:13px}
+.guide-panel{padding:22px;margin:20px 0}
+.guide-panel h3{margin:8px 0 12px}
+.rules-list{padding-left:21px;margin:12px 0 0;color:#687786;font-size:14px;line-height:1.8}
+.rules-list li{padding:4px 0}
+.game-connection{margin-top:15px;padding:12px 13px;background:#f3f7f4;border-left:3px solid #8eb99a;border-radius:5px;color:#486252;font-size:13px;line-height:1.65}
+.vc-grid .guide-card{min-height:190px}
+.guide-panel .primary{margin-top:14px}
+@media(max-width:760px){.guide-grid{grid-template-columns:1fr;gap:12px}.guide-card{padding:17px}.guide-card h3{font-size:17px}.guide-card p,.guide-panel p,.rules-list{font-size:13px}.guide-panel{padding:17px}}
